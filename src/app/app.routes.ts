@@ -1,3 +1,54 @@
 import { Routes } from '@angular/router';
+import {SpringDocComponent} from "./spring-doc/spring-doc.component";
+import {JavaDocComponent} from "./java-doc/java-doc.component";
+import {Java8Component} from "./java8/java8.component";
+import {Java17Component} from "./java17/java17.component";
+import {Java22Component} from "./java22/java22.component";
+import {KafkaComponent} from "./kafka/kafka.component";
+import {AngularComponent} from "./angular/angular.component";
+import {JavaScriptComponent} from "./java-script/java-script.component";
+import {PythonComponent} from "./python/python.component";
+import {KotlinComponent} from "./kotlin/kotlin.component";
+import {ScalaComponent} from "./scala/scala.component";
+import {TypeScriptComponent} from "./type-script/type-script.component";
+import {PostmanComponent} from "./postman/postman.component";
+import {PostgresqlComponent} from "./postgresql/postgresql.component";
+import {SwiftComponent} from "./swift/swift.component";
+import {PhpComponent} from "./php/php.component";
+import {GoComponent} from "./go/go.component";
+import {CppComponent} from "./cpp/cpp.component";
+import {DockerComponent} from "./docker/docker.component";
+import {KudernatesComponent} from "./kudernates/kudernates.component";
+import {MySqlComponent} from "./my-sql/my-sql.component";
+import {CSharpComponent} from "./c-sharp/c-sharp.component";
+import {GraphqlComponent} from "./graphql/graphql.component";
+import {NodeJsComponent} from "./node-js/node-js.component";
+import {VueJsComponent} from "./vue-js/vue-js.component";
+import {ReactComponent} from "./react/react.component";
 
-export const routes: Routes = [];
+export const routes: Routes = [{path: 'spring', component: SpringDocComponent},
+                               {path: 'java-doc', component: JavaDocComponent},
+                               {path: 'j8', component: Java8Component},
+                                {path: 'j17', component: Java17Component},
+                                {path: 'j22', component: Java22Component},
+                                {path: 'kafka', component: KafkaComponent},
+                                {path: 'angular', component: AngularComponent},
+                                {path: 'js', component: JavaScriptComponent},
+                                {path: 'python', component: PythonComponent},
+                                {path: 'kotlin', component: KotlinComponent},
+                                {path: 'scala', component: ScalaComponent},
+                                {path: 'postman', component: PostmanComponent},
+                                {path: 'postgresql', component: PostgresqlComponent},
+                                {path: 'swift', component: SwiftComponent},
+                                {path: 'php', component: PhpComponent},
+                                {path: 'go', component: GoComponent},
+                                {path: 'cpp', component: CppComponent},
+                                {path: 'docker', component: DockerComponent},
+                                {path: 'kubernates', component: KudernatesComponent},
+                                {path: 'mysql', component: MySqlComponent},
+                                {path: 'csharp', component: CSharpComponent},
+                                {path: 'graphql', component: GraphqlComponent},
+                                {path: 'nodejs', component: NodeJsComponent},
+                                {path: 'vuejs', component: VueJsComponent},
+                                {path: 'react', component: ReactComponent},
+                                {path: 'ts', component: TypeScriptComponent},];
